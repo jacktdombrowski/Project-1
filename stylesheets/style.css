@@ -1,11 +1,19 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Lucida', sans-serif;
+  font-family: 'Futura', sans-serif;
 }
 
 .container-fluid div {
   /*background-color: #333;*/
   border-left: 1px solid white;
   border-right: 1px solid white;
+}
+
+.col-sm-2 {
+  word-wrap: break-word;
+}
+
+.col-sm-10 {
+  display: inline-block;
 }
