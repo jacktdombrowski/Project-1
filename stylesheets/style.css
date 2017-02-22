@@ -4,8 +4,13 @@ body {
   font-family: 'OpenSans', sans-serif;
 }
 
-.col-sm-2 {
-  word-wrap: break-word;
+p {
+  color: grey;
+  line-height: 20px;
+}
+
+.col-sm-3 {
+  margin-top: 50px;
 }
 
 .col-sm-10 {
@@ -15,6 +20,12 @@ body {
 .img-responsive {
   width: 100%;
   height: auto;
+}
+
+.text-headline {
+  text-align: center;
+  font-size: 60px;
+  line-height: 150px;
 }
 
 .no-gutter {
@@ -32,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+a.active{
+  color: grey;
+}
+
 a:hover {
   color: grey;
   text-decoration: none;
@@ -47,6 +62,9 @@ a.head-link:hover {
 
 a.sub-link {
   font-weight: lighter;
+}
+
+a.img {
 }
 
 a svg {
