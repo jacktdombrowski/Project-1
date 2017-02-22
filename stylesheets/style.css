@@ -1,13 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Futura', sans-serif;
-}
-
-.container-fluid div {
-  /*background-color: #333;*/
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  font-family: 'OpenSans', sans-serif;
 }
 
 .col-sm-2 {
@@ -15,5 +9,47 @@ body {
 }
 
 .col-sm-10 {
-  display: inline-block;
+  display: inline;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.no-gutter {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+h5 {
+  line-height: 50px;
+}
+
+a {
+  color: black;
+  font-family: 'futura', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a.head-link {
+  font-weight: bold;
+}
+
+a.head-link:hover {
+  color: black;
+}
+
+a.sub-link {
+  font-weight: lighter;
+}
+
+a svg {
+  width: 30px;
+  height: auto;
 }
